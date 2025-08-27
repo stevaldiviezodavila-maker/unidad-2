@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <h1>fUNCIONES</h1>
+    <h2>Calculadora</h2>
+    <label for="">Numero 1</label>
+    <input type="number" id="num1"><br><br>
+    <label for="">Numero 2</label>
+    <input type="number" id="num2"><br><br>
+    <label for="">Operaciones</label><br><br>
+    <input type="radio" name="operaciones" value="+">Sumar <br><br>
+      <input type="radio" name="operaciones" value="-">Restar <br><br>
+        <input type="radio" name="operaciones" value="*">Multiplicar <br><br>
+          <input type="radio" name="operaciones" value="/">Dividir <br><br>
+
+          <button type="button" onclick="calcular()">Calcular</button>
+
+          </form>
+
+          <p id="resultado">Resultado:</p>
+</body>
+<script src="script.js"></script>
+</html>
