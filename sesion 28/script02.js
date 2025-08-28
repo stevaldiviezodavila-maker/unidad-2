@@ -44,3 +44,6 @@ do{
  console.log(numero)
  numero += 1
 }while(numero<=10)
+
+    
+//sumar los numeros divisibles entre 3 del 1 al 100
