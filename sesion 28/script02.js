@@ -47,3 +47,10 @@ do{
 
     
 //sumar los numeros divisibles entre 3 del 1 al 100
+let sumaDiv3 = 0;
+for (let i = 1; i <= 100; i++) {
+    if (i % 3 === 0) {
+        sumaDiv3 += i;
+    }
+}
+console.log("La suma de los números divisibles entre 3 del 1 al 100 es:", sumaDiv3);
